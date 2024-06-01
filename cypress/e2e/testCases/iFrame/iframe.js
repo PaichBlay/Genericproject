@@ -9,7 +9,7 @@ describe('', ()=>{
 
 
             // Accessing cross origin iframe elements like youtube - for iframe content to be accessed the contentwindowsreadystate must be complete and the iframe must he be fully loaded.
-            cy.get().should('be.visible')
+            cy.get().should('be.visible');
         })
 
 
